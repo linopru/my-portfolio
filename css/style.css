@@ -3,8 +3,6 @@ body {
 }
 
 .navbar {
-    max-width: 870px;
-    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -28,4 +26,75 @@ body {
 
 .nav-link.active {
     font-weight: 700;
+}
+
+.container {
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.header-text {
+    margin-left: 27px;
+}
+
+.heder-strong {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+
+.header-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    /* or 32px */
+    letter-spacing: -0.02em;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.header-primary {
+    color: #BF7506;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    padding: 8px;
+    display: inline-block;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.cv-dowload {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 8px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border-bottom: 2px solid #BF7506;
+}
+
+.cv-icon {
+    margin-right: 4px;
 }
